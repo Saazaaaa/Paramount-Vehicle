@@ -1,0 +1,104 @@
+.navbar {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar nav a {
+    margin-left: 20px;
+    padding: 10px 18px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    display: inline-block;
+  }
+  
+  .navbar nav a:hover {
+    background-color: #A89283;
+  }
+  
+  .navbar nav a:active {
+    box-shadow: 0 0 10px #A89283, 0 0 20px #A89283;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #B2B0AE;
+    color: #252525;
+  }
+  
+  .intro h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+  }
+  
+  .intro p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #D7D5D3;
+}
+
+.car-box {
+  height: 140px;
+  background-color: #A89283;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.car-box button,
+.car-box a {
+  margin-bottom: 10px;
+  padding: 8px 14px;
+  background-color: #252525;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-box button:hover,
+.car-box a:hover {
+  background-color: #A89283;
+  box-shadow: 0 0 10px #A89283, 0 0 20px #A89283;
+}
+
+.div1  { background-image: url("Model_Aria.png"); background-size: cover; background-position: center; }
+.div2  { background-image: url("Model_Valre.png"); background-size: cover; background-position: center; }
+.div3  { background-image: url("Model_Noir.png"); background-size: cover; background-position: center; }
+.div4  { background-image: url("Model_Valere.png"); background-size: cover; background-position: center; }
+.div5  { background-image: url("Model_Noir.png"); background-size: cover; background-position: center; }
+.div6  { background-image: url(); background-size: cover; background-position: center; }
+.div7  { background-image: url(); background-size: cover; background-position: center; }
+.div8  { background-image: url(); background-size: cover; background-position: center; }
+.div9  { background-image: url(); background-size: cover; background-position: center; }
+.div10 { background-image: url(); background-size: cover; background-position: center; }
+.div11 { background-image: url(); background-size: cover; background-position: center; }
+.div12 { background-image: url(); background-size: cover; background-position: center; }

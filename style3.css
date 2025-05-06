@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e7e5e4;
+    color: #F5F5F5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 50px;
+    padding: 40px 80px;
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #A89283;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+    border-radius: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    display: block;
+    opacity: 1;
+}
+
+.slider-controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 10px;
+}
+
+.slider-controls button {
+    background: #252525;
+    border: none;
+    color: #B2B0AE;
+    font-size: 24px;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.slider-controls button:hover {
+    background: #A89283;
+}
+
+.car-info {
+    padding: 20px;
+    background-color: #A89283;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #A89283;
+}
+
+.car-info h1 {
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.55);
+    margin-bottom: 20px;
+}
+
+.car-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #E0E0E0;
+}
+
+.car-info h2 {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.car-info ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.details-section {
+    text-align: center;
+}
+
+.details-section h2 {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.55);
+    margin-bottom: 30px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.detail-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.detail-image p {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 0.95rem;
+    line-height: 1.4;
+}

@@ -6,6 +6,40 @@ body {
     color: #252525;
   }
   
+.navbar {
+    background: #e6dad3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    padding: 10px 18px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    display: inline-block; 
+}
+
+.navbar nav a:hover {
+    background-color: #A89283;
+}
+
+.navbar nav a:active {
+    box-shadow: 0 0 10px #A89283, 0 0 20px #A89283;
+}
+
   header {
     text-align: center;
     margin-bottom: 2rem;

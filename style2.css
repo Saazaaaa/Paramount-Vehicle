@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background: white;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.navbar nav a:hover {
+  background: #A89283;
+}
+
+.intro {
+  text-align: center;
+  background: #B2B0AE;
+  color: #252525;
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+  background: #D7D5D3;
+}
+
+.car-box {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.car-box button,
+.car-box a {
+  background: #252525;
+  color: white;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.car-box button:hover,
+.car-box a:hover {
+  background: #A89283;
+}
+
+/* Backgrounds for each car */
+.aria     { background-image: url("Model_Aria.png"); }
+.valere   { background-image: url("Model_Valere.png"); }
+.noir     { background-image: url("Model_Noir.png"); }
+.eros     { background-image: url("Model_Eros.png"); }
+.astra    { background-image: url("Model_Astra.png"); }
+.corsa    { background-image: url("Model_Corsa.png"); }
+.vento    { background-image: url("Model_Vento.png"); }
+.luxor    { background-image: url("Model_Luxor.png"); }
+.sylva    { background-image: url("Model_Sylva.png"); }
+.obsidian { background-image: url("Model_Obsidian.png"); }
+.seraph   { background-image: url("Model_Seraph.png"); }
+.zenith   { background-image: url("Model-Zenith1.png"); }

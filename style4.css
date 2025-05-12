@@ -49,8 +49,8 @@ body {
   
   .about-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;  /* Add 3 column (two sides and a middle) small big small */
-    gap: 2rem;  /* rem - more scalable and adaptable*/
+    grid-template-columns: 1fr 2fr 1fr;  
+    gap: 2rem;  
     background-color: #D7D5D3;
     padding: 2rem;
     border-radius: 12px;

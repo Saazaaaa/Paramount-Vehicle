@@ -1,11 +1,6 @@
-
-/*
-#E7E5E4, #D7D5D3, #B2B0AE, #A89283, #252525
-*/
-
 body {
-    margin: 0; /* space outside element — between element’s border + other elements around */
-    padding: 32px;  /*space inside element - between content and border.*/
+    margin: 0; 
+    padding: 32px;  
     background-color: #E7E5E4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -52,7 +47,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: #726055;
-    margin: 0; /* remove the default spacing */
+    margin: 0; 
   } 
   
   .headingbig {
@@ -72,17 +67,17 @@ body {
   }
   
   .middle-underline {
-    position: relative; /* set up as a reference point -  positioned relative to this element*/
+    position: relative; 
   }
   
   .middle-underline::after {
-    content: "";   /* creates a blank element you can style */
-    position: absolute;  /* lets you place element where you want it - nearest positioned parent.*/
-    bottom: -5px;   /* distance of line from text */
-    left: 20%;  /* start of line */
-    width: 60%;   /* length of line should be */
-    height: 3px;  /* Thickness of underline */
-    background-color: #A89283;  /* Color of underline */
+    content: "";   
+    position: absolute;  
+    bottom: -5px;  
+    left: 20%; 
+    width: 60%;   
+    height: 3px;  
+    background-color: #A89283;  
   }
   
   .orange {
@@ -90,13 +85,13 @@ body {
   }
   
   .orange::after {
-    content: "";   /* creates a blank element you can style */
-    position: absolute;  /* lets you place element where you want it - nearest positioned parent.*/
-    bottom: -7px;   /* distance of line from text */
-    left: 0%;  /* start of line */
-    width: 60%;   /* length of line should be */
-    height: 3px;  /* Thickness of underline */
-    background-color: #d26d29;  /* Color of underline */
+    content: "";   
+    position: absolute;  
+    bottom: -7px;   
+    left: 0%;  
+    width: 60%;   
+    height: 3px; 
+    background-color: #d26d29;  
   }
   
   .accessories-container {

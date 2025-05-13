@@ -67,7 +67,6 @@ body {
   background: #A89283;
 }
 
-/* Backgrounds for each car */
 .aria     { background-image: url("Model_Aria.png"); }
 .valere   { background-image: url("Model_Valere.png"); }
 .noir     { background-image: url("Model_Noir.png"); }

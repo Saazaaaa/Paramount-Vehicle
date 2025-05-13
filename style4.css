@@ -43,10 +43,6 @@ body {
     border-bottom: 2px solid #B2B0AE;
   }
   
-  .highlight {
-    color: #A89283;
-  }
-  
   .about-grid {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;  
@@ -98,7 +94,6 @@ body {
   
   .separator-grid img {
     width: 80%;
-    max-width: 300px;
     height: auto;
     border-radius: 8px;
   }

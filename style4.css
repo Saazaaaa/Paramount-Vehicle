@@ -23,8 +23,7 @@ body {
     color: #fff;
     font-weight: 500;
     border-radius: 6px;
-    transition: #A89283 0.3s ease, box-shadow 0.2s ease;
-    display: inline-block; 
+    transition: #A89283 0.3s ease, box-shadow 0.2s ease; 
 }
 
 .navbar nav a:hover {
